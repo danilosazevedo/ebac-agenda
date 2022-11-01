@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    display: flex;
+    margin-right: 8px;
+}
+
+.container{
+    display:flex;
+    margin: 8px;
+}
+
+
+body h1{
+    font-family: 'Kanit', sans-serif;
+}
+
+form input{
+    width: 200px;
+    margin: auto 8px;
+    height: auto;
+    font-size: 16px;
+    border:none;
+    border-bottom: 1px solid blue;
+    outline: 0;
+}
+
+form button img{
+    width: 32px;
+    cursor: pointer;
+    border: none;
+}
+
+form button{
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+form button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+table{
+    margin-top: 32px;
+    text-align: center;
+    font-size: large;
+    text-align: left;
+    table-layout:fixed;
+}
+
+table img{
+    width: 20px;
+}
+
+table th{
+    border-bottom: 1px solid blue;
+    width: 300px;
+    text-align: left;
+    padding: 8px;
+}
+
+table tr td{
+    border-bottom: 1px solid gray;
+    padding: 8px;
+}
+
+tbody button{
+    cursor: pointer;;
+}
+
+.btn-del:hover{
+    cursor: pointer;
+}
+
+table t{
+    background-color:bisque
+}
+
+tr:nth-child(even) {
+    background:lightgray;
+}
